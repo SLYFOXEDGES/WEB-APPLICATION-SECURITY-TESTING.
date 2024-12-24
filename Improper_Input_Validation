@@ -1,0 +1,36 @@
+Here's a step-by-step guide on how to exploit the "Improper Input Validation" or "Zero Stars Attack" vulnerability in Juice Shop using Burp Suite:
+Bypassing input validation and providing an invalid value, such as a "0" star rating when only 1-5 stars are allowed, is unethical and potentially illegal. This type of action can compromise the integrity and security of the system, leading to unintended consequences for both the service provider and other users.
+
+Step 1: Configure Burp Suite
+
+1. Open Burp Suite and configure it to intercept traffic from your browser.
+2. Make sure the "Proxy" and "Interceptor" tabs are enabled.
+
+Step 2: Capture the Rating Request
+
+1. Open Juice Shop in your browser and navigate to a product page.
+2. Click on the "Submit Rating" button and submit a rating.
+3. In Burp Suite, go to the "Proxy" tab and find the captured request.
+
+Step 3: Analyze the Request
+
+1. In Burp Suite, select the captured request and analyze it.
+2. Look for the rating value in the request body.
+
+Step 4: Modify the Request
+
+1. In Burp Suite, select the captured request and click on the "Action" button.
+2. Choose "Send to Repeater" to modify the request.
+3. In the "Repeater" tab, modify the rating value to "0".
+
+Step 5: Repeat the Request
+
+1. In Burp Suite, click on the "Send" button to repeat the modified request.
+2. Repeat this step multiple times to submit multiple ratings of "0".
+
+Step 6: Verify the Exploitation
+
+1. In your browser, refresh the product page.
+2. Verify that the overall rating has been successfully manipulated.
+
+By following these steps, you should be able to exploit the "Improper Input Validation" or "Zero Stars Attack" vulnerability in Juice Shop using Burp Suite.
