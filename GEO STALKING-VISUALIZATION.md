@@ -31,3 +31,5 @@ Additional Tips
 - Make sure to use a proxy or intercepting tool to analyze and modify the HTTP requests.
 - Be cautious when testing this vulnerability, as it may affect the Juice Shop's functionality or other users' experiences.
 - This challenge is meant to demonstrate the risks of inadequate input validation and insecure handling of user location data.
+- ![image](https://github.com/user-attachments/assets/3fcaaf36-3531-4861-8ab2-7c3af9372823)
+
